@@ -593,7 +593,6 @@ body.light .about-highlights span {
     }
 }
 
-/
 @keyframes rotate-border {
     0% {
         background-position: 0% 50%;
@@ -1126,7 +1125,7 @@ body.light .about-highlights span {
         box-shadow: 0 .1rem 1rem #000;
         padding: 20px 0;
     }
-
+}
     .menu-toggle:checked + .menu-icon + .navbar {
         display: flex;
     }
@@ -2103,7 +2102,7 @@ body.light #InternshipsCertifications .card p {
 
 .featured-projects-box h2 span {
     color: #00EEFF; 
-
+}
 .separator {
     width: 100px;
     height: 4px;
@@ -2403,6 +2402,7 @@ img.responsive.circle-img {
       display: block;
       opacity: 1; 
   }
+}
   @media (max-width: 1200px) {
       img.responsive.circle-img {
            width: 350px;
