@@ -1,4 +1,3 @@
-/*=========Navbar Scroll===========*/
 document.addEventListener("DOMContentLoaded", function() {
     const navbar = document.getElementById("header");
     window.addEventListener("scroll", function() {
@@ -10,8 +9,6 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-
-/*========== scroll sections active link in navbar ==========*/
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
 
@@ -30,8 +27,6 @@ window.onscroll = () => {
     });
 };
 
-
-/*========== Typing animation in home page ==========*/
 var typed = new Typed(".text", {
     strings: ["Full Stack Developer" , "Frontend Developer"],
     typeSpeed:100,
@@ -40,8 +35,6 @@ var typed = new Typed(".text", {
     loop:true
 });
 
-
-/*========== Go top icon in left bottom ==========*/
 const toTop = document.querySelector(".top");
 window.addEventListener("scroll",() =>{
     if (window.pageYOffset > 100){
@@ -52,7 +45,6 @@ window.addEventListener("scroll",() =>{
     }
 })
 
-/*========== Scroll Reveal script ==========*/
 document.addEventListener('DOMContentLoaded', function () {
     const cards = document.querySelectorAll('.reveal');
     function checkScroll() {
